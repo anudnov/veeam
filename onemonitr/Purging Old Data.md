@@ -66,7 +66,7 @@ ORDER BY
     TotalSpaceMB DESC, t.Name
 
 ```
-For example, delete all from the table "PerfSampleDay4", older then "2024-07-10 00:00:00.000":
+-- For example, delete all from the table "PerfSampleDay4", older then "2024-07-10 00:00:00.000":
 ```
 DELETE FROM [VeeamONE].[monitor].[PerfSampleDay4]
 WHERE timestamp < '2024-07-10 00:00:00.000';
