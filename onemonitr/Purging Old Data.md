@@ -18,8 +18,7 @@ Get-Service Veeam* | Start-Service
 TO  DISK = N'D:\veeamone.bak' WITH NOFORMAT, NOINIT,  NAME = N'VeeamOne-Full Database Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10 
 GO
 ```
-#### Step 3.
-Cleaning:
+#### Step 3, cleaning:
 * Open the SQL Server Management Studio
 
 ```
