@@ -33,7 +33,7 @@ GO
 DELETE from monitor.Event
 GO
 ```
-#### Get size of all tables in database
+* Get size of all tables in database
 ```
 SELECT 
     t.NAME AS TableName,
@@ -70,14 +70,14 @@ ORDER BY
 DELETE FROM [VeeamONE].[monitor].[PerfSampleDay4]
 WHERE timestamp < '2024-07-10 00:00:00.000';
 ```
-#### Shrink the Database
+*  Shrink the Database
 ```
 USE [VeeamONE]
 GO
 
 DBCC SHRINKDATABASE ([VeeamONE]);
 ```
-#### Start services:
+*  Start services:
 ```
 stop-service VeeamDCS
 stop-service VeeamRSS
