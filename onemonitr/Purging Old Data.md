@@ -1,6 +1,7 @@
 #### How to reduce Veeam ONE Database size
 
 #### Step 1.
+
 stop-service VeeamDCS
 stop-service VeeamRSS
 stop-service VeeamCRS
