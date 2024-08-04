@@ -1,6 +1,7 @@
 ## How to reduce Veeam ONE Database size
 
 #### Step 1.
+Stop services:
 ```
 stop-service VeeamDCS
 stop-service VeeamRSS
@@ -75,10 +76,12 @@ USE [VeeamONE]
 GO
 
 DBCC SHRINKDATABASE ([VeeamONE]);
-
 ```
+#### Start services:
 ```
-
+stop-service VeeamDCS
+stop-service VeeamRSS
+stop-service VeeamCRS
 ```
 ```
 
