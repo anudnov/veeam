@@ -1,4 +1,4 @@
-#### How to reduce Veeam ONE Database size
+## How to reduce Veeam ONE Database size
 
 #### Step 1.
 ```
